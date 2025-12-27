@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact - Professional HTML Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <div class="logo">MyProject</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown">
+                <a href="about.html">About <i class="fa fa-caret-down"></i></a>
+                <ul class="dropdown-menu">
+                    <li><a href="about.html#team">Team</a></li>
+                    <li><a href="about.html#history">History</a></li>
+                </ul>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="dark-mode-toggle">
+            <i class="fa fa-moon" id="darkModeBtn"></i>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <h1>Contact Us</h1>
+
+    <!-- Form -->
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject">
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"></textarea>
+
+        <input type="checkbox" id="subscribe" name="subscribe">
+        <label for="subscribe">Subscribe to newsletter</label><br><br>
+
+        <button type="submit">Send Message</button>
+    </form>
+
+    <!-- Map Embed -->
+    <h2>Our Location</h2>
+    <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387190.27991498887!2d-74.25986719486816!3d40.69714942274262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+USA!5e0!3m2!1sen!2sus!4v1703700000000" 
+        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+    </iframe>
+
+    <!-- Audio & Video -->
+    <h2>Media</h2>
+    <audio controls>
+        <source src="whatsapp-audio.mp3" type="audio/mpeg">
+        Your browser does not support audio element.
+    </audio>
+
+    <video width="400" controls>
+        <source src="whatsapp-video1.mp4" type="video/mp4">
+        Your browser does not support video element.
+    </video>
+
+    <video width="400" controls>
+        <source src="whatsapp-video2.mp4" type="video/mp4">
+        Your browser does not support video element.
+    </video>
+
+    <!-- Semantic Section -->
+    <section class="semantic-section">
+        <article>
+            <h3>Article Example</h3>
+            <p>This is an article element.</p>
+        </article>
+        <aside>
+            <h3>Aside Example</h3>
+            <p>This is an aside element.</p>
+        </aside>
+    </section>
+</main>
+
+<footer>
+    <div class="footer-content">
+        <p>© 2025 MyProject</p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

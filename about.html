@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About - Professional HTML Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <div class="logo">MyProject</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown">
+                <a href="about.html">About <i class="fa fa-caret-down"></i></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#history">History</a></li>
+                </ul>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="dark-mode-toggle">
+            <i class="fa fa-moon" id="darkModeBtn"></i>
+        </div>
+    </nav>
+</header>
+
+<!-- Banner -->
+<section class="banner">
+    <h1>About This Project</h1>
+    <p>Learn HTML, CSS, and JavaScript through practical examples.</p>
+</section>
+
+<!-- Team Section -->
+<section id="team" class="cards-section">
+    <h2>Our Team</h2>
+    <div class="card">
+        <i class="fa fa-user fa-3x"></i>
+        <h3>badr</h3>
+        <p>Frontend Developer</p>
+    </div>
+    <div class="card">
+        <i class="fa fa-user fa-3x"></i>
+        <h3>samone</h3>
+        <p>Backend Developer</p>
+    </div>
+</section>
+
+<!-- History Section -->
+<section id="history" class="semantic-section">
+    <h2>Project History</h2>
+    <article>
+        <h3>2025</h3>
+        <p>Project started with a goal to teach practical HTML and CSS.</p>
+    </article>
+    <article>
+        <h3>2025-12</h3>
+        <p>Added advanced features like JS interactions and media integration.</p>
+    </article>
+</section>
+
+<footer>
+    <div class="footer-content">
+        <p>© 2025 MyProject</p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
