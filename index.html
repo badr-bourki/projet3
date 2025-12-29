@@ -1,97 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" /> 
     <title>Home - Professional HTML Project</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-</head>
-<body>
-
-<header>
-    <nav>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
         <div class="logo">MyProject</div>
         <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li class="dropdown">
-                <a href="about.html">About <i class="fa fa-caret-down"></i></a>
-                <ul class="dropdown-menu">
-                    <li><a href="about.html#team">Team</a></li>
-                    <li><a href="about.html#history">History</a></li>
-                </ul>
-            </li>
-            <li><a href="contact.html">Contact</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li class="dropdown">
+            <a href="about.html">About <i class="fa fa-caret-down"></i></a>
+            <ul class="dropdown-menu">
+              <li><a href="about.html#team">Team</a></li>
+              <li><a href="about.html#history">History</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
         <div class="dark-mode-toggle">
-            <i class="fa fa-moon" id="darkModeBtn"></i>
+          <i class="fa fa-moon" id="darkModeBtn"></i>
         </div>
-    </nav>
-</header>
+      </nav>
+    </header>
 
-<!-- Banner -->
-<section class="banner">
-    <h1>Welcome to My Professional HTML Project</h1>
-    <p>Learn, Apply, and Build Amazing Web Projects</p>
-    <button onclick="alert('Get Started!')">Get Started</button>
-</section>
+    <!-- Banner -->
+    <section class="banner">
+      <h1>Welcome to My Professional HTML Project</h1>
+      <p>Learn, Apply, and Build Amazing Web Projects</p>
+      <button onclick="alert('Get Started!')">Get Started</button>
+    </section>
 
-<!-- Cards Section -->
-<section class="cards-section">
-    <div class="card">
+    <!-- Cards Section -->
+    <section class="cards-section">
+      <div class="card">
         <i class="fa fa-code fa-3x"></i>
         <h3>HTML Basics</h3>
         <p>Learn the building blocks of web development.</p>
-    </div>
-    <div class="card">
+      </div>
+      <div class="card">
         <i class="fa fa-paint-brush fa-3x"></i>
         <h3>CSS Styling</h3>
         <p>Create beautiful and responsive designs.</p>
-    </div>
-    <div class="card">
+      </div>
+      <div class="card">
         <i class="fa fa-js fa-3x"></i>
         <h3>JavaScript</h3>
         <p>Add interactivity and dynamic content to your pages.</p>
-    </div>
+      </div>
+    </section>
+
+    <section class="media-section">
+  <h2>Media Examples</h2>
+
+  <img src="HD_bing.jpg" alt="Banner Image" class="media-img" />
+
+  <video controls class="media-video">
+    <source src="WhatsApp Video 2025-12-27 at 20.28.42 (1).mp4" type="video/mp4">
+  </video>
+
+  <video controls class="media-video">
+    <source src="WhatsApp Video 2025-12-27 at 20.28.42.mp4" type="video/mp4">
+  </video>
+
+  <audio controls class="media-audio">
+    <source src="WhatsApp Audio 2025-12-27 at 20.29.17.mpeg" type="audio/mpeg">
+  </audio>
 </section>
 
-<!-- Media Section -->
-<section class="media-section">
-    <h2>Media Examples</h2>
-    <img src="HD_bing.jpg" alt="Banner Image">
-    <video width="400" controls>
-        <source src="WhatsApp Video 2025-12-27 at 20.28.42 (1).mp4" type="video/mp4">
-    </video>
-     <video width="400" controls>
-        <source src="WhatsApp Video 2025-12-27 at 20.28.42.mp4" type="video/mp4">
-    </video>
-    <audio controls>
-  <source src="WhatsApp Audio 2025-12-27 at 20.29.17.mpeg" type="audio/mpeg">
-</audio>
-</section>
-
-<!-- Semantic Elements -->
-<section class="semantic-section">
-    <article>
+    <!-- Semantic Elements -->
+    <section class="semantic-section">
+      <article>
         <h3>Article Example</h3>
         <p>This is a sample article demonstrating semantic HTML elements.</p>
-    </article>
-    <aside>
+      </article>
+      <aside>
         <h3>Aside Example</h3>
         <p>This is an aside element for sidebar content.</p>
-    </aside>
-</section>
+      </aside>
+    </section>
 
-<footer>
-    <div class="footer-content">
+    <footer>
+      <div class="footer-content">
         <p>© 2025 MyProject</p>
         <div class="social-icons">
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
         </div>
-    </div>
-</footer>
+      </div>
+    </footer>
 
-<script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
